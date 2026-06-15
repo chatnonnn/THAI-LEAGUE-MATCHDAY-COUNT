@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif; 
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 100px;
+  background-color: #8A1919;
+  color: white;
+}
+.logo img{
+  max-width: 200px;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.match{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(to right, #666666, #b93030, #ed8080);
+}
+.first-match, .second-match, .third-match{
+  display: grid;
+  align-items: flex-start;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #b92424;
+  width: 470px;
+  height: 500px;
+  border: 4px solid #f78585;
+  border-radius: 25px;
+}
+.match-rival {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: center;
+  padding: 0 2rem;
+  width: 400px;
+  height: 125px;
+  background-color:#f78585;
+  border-radius: 25px;
+}
+.match-rival img{
+  max-height: 110px;
+  max-width: 110px;
+}
+.vs-text{
+  font-size: 30px;
+  color: white;
+}
+.match-schedule{
+  justify-self: center;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+.match-count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 4px solid #f78585;
+  border-radius: 25px;
+  color: white;
+  font-size: 60px;
+}
+.time-count{
+  font-size: 20px;
+  text-align: center;
+}
+.match-hype-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 10px;
+}
+.match-preview, .match-detail{
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  background-color: #911d1d;
+  color: white;
+  cursor: pointer;
+}
+footer{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  background-color: #8A1919;
+  color: white;
+}
